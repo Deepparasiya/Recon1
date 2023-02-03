@@ -27,14 +27,15 @@ Install my-project with git
 1. start the tool.
 ./recon.sh
 ```
-
+```
 Starting the tool.
+```
 ![App Screenshot](https://github.com/Deep2142004/Recon1/blob/main/images/1.jpg)
-
+```
 collecting ip's from censys.
-
+```
 ![App Screenshot](https://github.com/Deep2142004/Recon1/blob/main/images/2.jpg)
-
+```
 Enumerating Subdomains.
-
+```
 ![App Screenshot](https://github.com/Deep2142004/Recon1/blob/main/images/3.jpg)
