@@ -39,3 +39,6 @@ collecting ip's from censys.
 Enumerating Subdomains.
 ```
 ![App Screenshot](https://github.com/Deep2142004/Recon1/blob/main/images/3.jpg)
+
+## 🚀 About Me
+I'm Deep, 2nd year cybersecurity student keeping my interet in V/WAPT stuff. Also like to do bug bounties in my free time and also write technical blogs.my core area of interest lies in offensive side and also preparing for certification exams such as ejptv2 & has recently passed Certified AppSec Practitioner (CAP) exam. 
