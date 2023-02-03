@@ -27,10 +27,10 @@ Install my-project with git
 1. start the tool.
 ./recon.sh
 ```
-![](https://github.com/Deep2142004/Recon1/blob/main/images/1.jpg)
 
 
 ## Screenshots
 
 ![App Screenshot](https://github.com/Deep2142004/Recon1/blob/main/images/1.jpg)
+
 
