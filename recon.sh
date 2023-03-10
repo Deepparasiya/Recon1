@@ -21,11 +21,11 @@ echo "${GREEN}
 
 
 
-#read -p "Do you want to install tools: " i
-#if [ $i = y ]
-#then 
+read -p "Do you want to install tools: " i
+if [ $i = y ]
+then 
 
-#installtools
+installtools
 
 
 installtools () {
