@@ -145,14 +145,14 @@ cat finalsubs.txt | gau | uro |  tee -a urls.txt
 
 
 #echo "${RED} [+]LOOKING FOR SQL INJECTION...                  ${RESET}"
-cat urls.txt | gf sqli | sqliurl.txt
+cat urls.txt | gf sqli | tee -a sqliurl.txt
 #sqlmap -m sqliurl.txt --batch  -a --level 3 --risk 2 
 
 echo "${RED} [+]LOOKING FOR ERROR-BASED SQL INJECTION...                  ${RESET}"
 nuclei -l sqliurl.txt -t sqli.yaml -o nuclei_sqli.txt
 
 echo "${RED} [+]RUNNING NUCLEI...                  ${RESET}"
-nuclei -l urls.txt -rl 10 -c 5 
+nuclei -l urls.txt -rl 10 -c 5 | tee -a nuclei.txt
 
 }
 
